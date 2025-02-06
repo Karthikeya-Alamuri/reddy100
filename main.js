@@ -439,7 +439,7 @@ function showEventDetails(eventId) {
                 </div>
                 
             </div>
-            <a href="${event.Whatsapp_Group_Link} target="_blank" class="register-event-button">Join in ${event.title} Whatsapp Group </a>
+            <a href="${event.Whatsapp_Group_Link}" target="_blank" class="register-event-button">Join in ${event.title} Whatsapp Group </a>
 
         </div>
     `;
