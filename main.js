@@ -136,16 +136,16 @@ const events = [
         type: 'technical',
         title: 'Quick Fingers',
         image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&q=80',
-        description: 'Test your typing speed and accuracy in this competitive event',
+        description: 'Quick Fingers is a competitive typing event that highlights the importance of both accuracy and speed',
         rules: [
-            'All participants will type a given paragraph with minimal errors and high speed.',
-            'Round 1: Accuracy and Speed Test',
-            'Round 2: Top 50 Accuracy and Speed Challenge',
-            'Round 3: Top 10 Final Challenge',
+            'Round Instructions:',
+            '	Round 1: Accuracy and Speed Test All participants will type a given paragraph with minimal errors and high speed. o Scores will be based on a combination of accuracy (first preference) words- perminute (WPM).',
+            '	Round 2: Top 50 Accuracy and Speed Challenge o The top 50 participants from Round 1 will compete in a similar typing challenge. o Both accuracy and speed will be evaluated, with accuracy given higher weightage.',
+            '	Round 3: Top 10 Final Challenge o The top 10 participants from Round 2 will compete in the final round. o A more complex passage will be provided, and the final score will heavilyemphasize accuracy along with speed',
         ],
-        venue: 'VTU',
-        timing: '10:00 AM - 12:00 PM',
-        formLink: 'https://forms.gle/e22UzXFLoVA5LzYj7',
+        Organisers: 'Varada sandeep', 
+        timing: '10:30AM - 11:30AM',
+        Whatsapp_Group_Link:  'https://chat.whatsapp.com/CtFBqZVWVGl2OReofBQnSQ',
     },
     {
         id: 'decode-tech',
@@ -154,143 +154,198 @@ const events = [
         image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80',
         description: 'Connect technical concepts in this innovative challenge',
         rules: [
-            'Round 1: Kahoot Qualifier (Point-Based)',
-            'Round 2: Pictoword Face-Off (Head-to-Head)',
-            'Round 3: Technical Pictoword (Computer Science Focus)',
-            'Participants must adhere to the time limits for each round.',
+            '	Round 1 will be conducted using Kahoot, where participants answer multiple-choice questions based on pictorial representations.',
+            '	Top 25 participants from Round 1 will advance to Round 2 for a head-to-head Pictoword face-off.',
+            '	Finalists  will test technical knowledge through pictorial representations of computer science concepts.',
+            ,
         ],
-        venue: 'Seminar Hall',
-        timing: '2:00 PM - 5:00 PM',
-        formLink: 'https://forms.gle/c1s16X7JS23J26oD8',
+        Organisers: 'R.Dhanush',
+        timing: '2:00 PM - 3:00 PM',
+        Whatsapp_Group_Link: 'https://chat.whatsapp.com/GPFdoKDns9Q5re3iJbLGpN',
     },
     {
         id: 'ui-magician',
         type: 'technical',
         title: 'UI Magician',
         image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80',
-        description: 'Create stunning presentations with your creative skills',
+        description: 'Put your front-end skills to the test in this exciting challenge! Participants must accurately replicate a given web page within a set time limit, ensuring precision in design, layout, and styling. ',
         rules: [
-            'Themes will be disclosed at the start of the event.',
-            'Only PowerPoint should be used.',
-            'Laptops are mandatory (systems will not be organized).',
-            'Teams must submit their final presentation in the required format (.ppt, .pdf, etc.).',
+            '	Internet access is strictly prohibited during the competition.',
+            '	Only HTML and CSS are allowed; JavaScript is not required unless specified. Pre-written templates or code snippets are not allowed—everything must be coded from scratch',
+            '	Participants must match the layout, colors, and spacing as closely as possible. Text content should be replicated exactly as given in the reference page.',
+            
         ],
-        venue: 'VTU',
-        timing: '10:00 AM - 1:00 PM',
-        formLink: 'https://forms.gle/Z189WCz4ybGBzv4r8',
+        Organisers: 'B.Vikas Reddy',
+        timing: '10:30AM - 11:30AM',
+        Whatsapp_Group_Link: 'https://chat.whatsapp.com/IjlaE4u6KmbC5xYyLVyPpY',
     },
     {
-        id: 'jumbled-code',
+        id: 'Chart it Out',
         type: 'technical',
-        title: 'Jumbled Code',
-        image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80',
-        description: 'Unscramble and fix the code to solve programming challenges',
+        title: 'Chart it Out',
+        image: '',
+        description: 'Chart it Out is a poster presentation event that serves as an exciting platform where participants unleash their creativity and problem-solving skills. ',
         rules: [
-            'Individual participation.',
-            'Multiple programming languages allowed.',
-            'Time limit: 45 minutes.',
-            'No internet access.',
+            '		Themes will be announced at 11:30 AM and must be selected by the fishbowl method.',
+            '		Participants must create their posters manually, laptops and electronic devices are allowed up to 15 minutes after theme selection.',
+            '		Each theme will have an associated problem statement, and participants must base their poster on the given problem.',
+            '		6.	Teams are allowed to have up to two members; single participation is also permitted.Plagiarsm or copying will result in immediate disqualification.',
         ],
-        venue: 'Computer Lab 3',
-        timing: '11:00 AM - 1:00 PM',
-        formLink: 'https://forms.gle/link5',
+        Organisers: 'P.V.SASIBHUSHAN RAJU ',
+        timing: '11:30AM - 1:00PM',
+        Whatsapp_Group_Link: ' https://chat.whatsapp.com/KdFOGx7mpMKGQySRFHVuIg',
     },
     {
-        id: 'rhythm-soul',
-        type: 'non-technical',
-        title: 'Rhythm of Soul',
-        image: 'https://images.unsplash.com/photo-1535525153412-5a092c564c20?auto=format&fit=crop&q=80',
-        description: 'Blend technology and dance in this unique performance',
+        id: 'Pop n hunt',
+        type: 'technical',
+        title: 'Pop n hunt',
+        image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80',
+        description: 'Hunting the accurate code from the given treasure box for the given problem statements.',
         rules: [
-            'Team of 4-6 members.',
-            'Performance time: 5-7 minutes.',
-            'Must incorporate a tech theme.',
-            'Props allowed.',
+            '	Each team consists of 2 members.',
+            '	Blow and pop a balloon to access the treasure box.',
+            '	Marks are allotted based on the code accuracy and the time taken by them. ',
+            '	The team with the highest marks wins.',
         ],
-        venue: 'Main Auditorium',
-        timing: '4:00 PM - 6:00 PM',
-        formLink: 'https://forms.gle/link6',
+        Organisers: 'Dhivya SV ',
+        timing: '11:30AM - 1:00PM',
+        Whatsapp_Group_Link:'https://chat.whatsapp.com/JrNP1NABjYR0XdjPYDQhLF',
     },
+ 
     {
         id: 'tech-fusion',
         type: 'technical',
         title: 'Tech Fusion',
         image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80',
-        description: 'Showcase your innovative technical projects',
+        description: 'Tech Fusion is an innovative project expo showcasing groundbreaking student projects in technology, engineering, and automation. ',
         rules: [
-            'Team of 2-4 members.',
-            'Working prototype required.',
-            'Presentation time: 15 minutes.',
-            'Technical documentation mandatory.',
+            'Prototype Requirement – A working prototype or simulation is mandatory for evaluation',
+            '	Team Size – Each team can have a maximum of 3 members',
+            '	Decision Finality – Judges decisions are final and cannot be contested.',
+            '	Code of Conduct – Participants must maintain professionalism and adhere to ethical ',
         ],
-        venue: 'Exhibition Center',
-        timing: '10:00 AM - 5:00 PM',
-        formLink: 'https://forms.gle/link7',
+        Organisers: 'GOKULAKANNAN V',
+        timing: '10:30 AM - 1:00 PM',
+        Whatsapp_Group_Link: 'https://chat.whatsapp.com/BdTjURSkAd6CYpztS3wLxq',
     },
     {
-        id: 'codechaos',
+        id: 'STREET CODE',
         type: 'technical',
-        title: 'Codechaos',
+        title: 'STREET CODE ',
         image: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80',
-        description: 'Code in unconventional settings with time pressure',
+        description: 'Street code is an event where programmers and coders participate in coding challenges while being exposed to external distractions like loud noises, random music, and other disturbances. ',
         rules: [
-            'Individual participation.',
-            'Coding challenges in outdoor settings.',
-            'Time limit varies per round.',
-            'Bring your own laptop.',
+            '	Participants  must bring their own laptops',
+            '	The coding environment will be set up in HackerEarth',
+            '	Participants must solve coding challenges while handling distractions.',
+            'The event consists of 2 rounds, each with increasing difficulty and chaos:	','Round 1 (60 minutes) – Coding challenge with mild disturbances.','	Round 2 (45 minutes) – Advanced coding challenge with extreme chaos',
+
         ],
-        venue: 'College Campus',
-        timing: '9:00 AM - 12:00 PM',
-        formLink: 'https://forms.gle/link8',
+        Organisers: 'v.Hema sarayu',
+        timing: '11:30 AM - 1:00 PM',
+        Whatsapp_Group_Link: 'https://chat.whatsapp.com/IS1fWp7yNHa44c6TMstSxH',
     },
-    {
-        id: 'classy-genz',
-        type: 'non-technical',
-        title: 'ClassyGenz',
-        image: 'https://images.unsplash.com/photo-1523380744952-b7e00e6e2ffa?auto=format&fit=crop&q=80',
-        description: 'Fusion of traditional wear with technological elements',
-        rules: [
-            'Individual participation.',
-            'Must incorporate LED/tech elements.',
-            'Presentation time: 3 minutes.',
-            'Original designs only.',
-        ],
-        venue: 'Fashion Arena',
-        timing: '3:00 PM - 5:00 PM',
-        formLink: 'https://forms.gle/link9',
-    },
+   
     {
         id: 'clueless-coder',
-        type: 'non-technical',
+        type: 'technical',
         title: 'The Clueless Coder',
         image: 'https://images.unsplash.com/photo-1553481187-be93c21490a9?auto=format&fit=crop&q=80',
-        description: 'Act out technical terms and concepts',
+        description: 'Clueless code is a Dumb Charades event which is an exciting team-based event where participants act out words or phrases without speaking. ',
         rules: [
-            'Team of 3 members.',
-            'No speaking or writing.',
-            'Technical terms only.',
-            'Time limit: 2 minutes per term.',
+            '	Participants must act out the word or phrase without speaking.',
+            '	No props or gestures that can directly give away the word are allowed.',
+            '	Each team has a maximum of 1 minutes to guess the word.',
+            '8.	Each team should have maximum of 2 members.',
         ],
-        venue: 'Mini Auditorium',
-        timing: '1:00 PM - 3:00 PM',
-        formLink: 'https://forms.gle/link10',
+        Organisers: 'S.Ganesh Raj ',
+        timing: '11:30 AM - 1:00 PM',
+       Whatsapp_Group_Link:'https://chat.whatsapp.com/Gxo4mOPMbEQ4OyPNPQQejU',
     },
     {
         id: 'techtrivia',
         type: 'technical',
         title: 'TechTrivia',
         image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80',
-        description: 'Test your technical knowledge across various domains',
+        description: 'It is an event designed to test participants knowledge about technology, computers, programming, and the history of tech innovations.',
         rules: [
-            'Team of 2 members.',
-            'Multiple rounds.',
-            'Rapid fire round included.',
-            'Topics: Programming, Hardware, Tech History.',
+            '	Participate in teams (2 members).',
+            '	No external help or resources allowed during the event.',
+            '	Provide clear and concise answers .',
+            '	Do not share solutions or details with others during the event.',
         ],
-        venue: 'Seminar Hall 2',
-        timing: '10:00 AM - 1:00 PM',
-        formLink: 'https://forms.gle/link11',
+        Organisers: '	K Arun Kishore            ',
+        timing: '10:30 AM - 11:30 AM',
+        Whatsapp_Group_Link:'https://chat.whatsapp.com/EroTeg2lCluEfZgA5CixOA',
     }
+,
+{
+    id: 'Prompt-wars',
+    type: 'technical',
+    title: 'Prompt wars',
+    image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80',
+    description: ' Given a set of AI-based prompts, your challenge is to generate the most unique and engaging responses. ',
+    rules: [
+        '	Each team can have 1 member. ',
+        '	Teams will have a time limit to respond to each prompt.',
+        '	Judges will evaluate entries based on creativity, coherence, and relevance.',
+        '	No AI tools or external assistance is allowed during the challenge.',
+    ],
+    Organisers: '	Ganesh Balaji            ',
+    timing: '11:30 AM - 1:00 PM',
+    Whatsapp_Group_Link:'https://chat.whatsapp.com/DJhFKJvVzZ8CFsn1IM7xuo',
+}
+,
+{
+    id: 'BrainByte',
+    type: 'technical',
+    title: 'BrainByte',
+    image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80',
+    description: ' Get ready to test your brainpower at BrainByte! A thrilling event designed for computer science enthusiasts, where puzzles and riddles challenge your coding, problem solving, and logic skills.  ',
+    rules: [
+        '		Participate in teams (2-4 members). ',
+        '		No external help or resources allowed during the event.',
+        '		Provide clear and concise answers, explaining your approach if required.',
+        '		Do not share solutions or details with others during the event.',
+    ],
+    Organisers: '	Sharon Varghese                       ',
+    timing: '10:30 AM - 1:00 PM',
+    Whatsapp_Group_Link:'https://chat.whatsapp.com/Hj1gGIuceXl33jFUJNrU5g',
+}
+,
+
+    {
+        id: 'rhythm-soul',
+        type: 'non-technical',
+        title: 'Rhythm of Soul',
+        image: 'https://images.unsplash.com/photo-1535525153412-5a092c564c20?auto=format&fit=crop&q=80',
+        description: 'Calling all dance enthusiasts! Get ready to groove and show off your moves at RHYTHM RIOT, the ultimate group dance competition! to Flaunt your dancing skills.',
+        rules: [
+            ' A team can have  maximum of 6 members.',
+            'The duration for each performance is 3 to 5 mins.',
+            'Participants must come  with their own tracks.',
+            'Judges decision wil be final.',
+        ],
+        Organisers: 'S.Sarika         ',
+        timing: '2:00 PM - 3:00 PM',
+       Whatsapp_Group_Link:'https://chat.whatsapp.com/E2BPQ4OLadl91MbbdgdtyF',
+    },
+    {
+        id: 'classy-genz',
+        type: 'non-technical',
+        title: 'ClassyGenz',
+        image: 'https://images.unsplash.com/photo-1523380744952-b7e00e6e2ffa?auto=format&fit=crop&q=80',
+        description: 'A ramp walk is more than just walking—it’s about confidence, body language, and making a lasting impression. ',
+        rules: [
+            'Welcomed  in a descent  attire(no short dresses ) where you can express yourself  within duration: 60 secs.',
+            'Any theme is encouraged  like from  a movie character, role models etc.  that enhances  your personality .',
+            'Walk  with Dance  and showcase your moves within duration: 60 secs',
+            'You can use properties as well.',
+        ],
+        Organisers: 'Ch. komala sri ',
+        timing: '2:00 PM - 3:00 PM',
+        Whatsapp_Group_Link: 'https://chat.whatsapp.com/G2KEkKTcqvvDujWyHIn2Vz',
+    },
 ];
 
 // Coordinator data
@@ -375,15 +430,16 @@ function showEventDetails(eventId) {
             
             <div class="modal-info">
                 <div>
-                    <h3>Venue</h3>
-                    <p>${event.venue}</p>
+                    <h3>Organisers: </h3>
+                    <p>${event.Organisers}</p>
                 </div>
                 <div>
                     <h3>Timing</h3>
                     <p>${event.timing}</p>
                 </div>
+                
             </div>
-            
+            <a href="${event.Whatsapp_Group_Link} target="_blank" class="register-event-button">Join in ${event.title} Whatsapp Group </a>
 
         </div>
     `;
@@ -434,19 +490,3 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
-document.addEventListener("DOMContentLoaded", function() {
-    const menuButton = document.getElementById("menu-button");
-    const sidebar = document.getElementById("sidebar");
-    const closeButton = document.getElementById("close-button");
-
-    // Open Sidebar
-    menuButton.addEventListener("click", function() {
-        sidebar.style.right = "0";
-    });
-
-    // Close Sidebar
-    closeButton.addEventListener("click", function() {
-        sidebar.style.right = "-250px";
-    });
-});
